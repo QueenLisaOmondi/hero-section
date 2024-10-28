@@ -1,0 +1,47 @@
+body{
+    font-family:sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size:25px;
+    color: #003049;
+}
+#pa{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.image-text-container {
+    display: flex; /* This places the image and text side by side */
+    align-items: center; /* Vertically align the image and text */
+    gap: 40px;
+  }
+  #shadow{
+    text-shadow: 8px 2px 0px rgb(113, 113, 218);
+  }
+  .image-text-container img {
+    width: 30%; /* Image takes up 50% of the container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .text-beside-image {
+    width: 50%; /* Text takes up the other 50% */
+    padding-bottom: 150px; /* Optional: Add some space between the image and text */
+    
+  }
+  #hero{
+    background-color: #669BBC;
+    background-size: cover;
+    padding: 10px 0 40px 0;
+  }
+  #down{
+    text-align: center;
+  }
+  .cta{
+   color: #780000;
+  }
+  #btn{
+    padding: 10px;
+    background-color: #669BBC;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
